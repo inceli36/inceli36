@@ -7,17 +7,7 @@ var arena = document.querySelector("#arena");
 var player1score = 0;
 var player2score = 0;
 
-// bunu oyunun yeniden başlaması için yazdım ama olmadı
 
-// bir sürü yerden araştırdım hepsini teker teker denedim olmadı
-// yapan bir kişi vardı ondan baktım oda arena yapmıyordu
-// window değerlerini kendi arenamdan çıkararak yaptım
-// takıldığım nokta ball left 0 olunca windowdan çıkmasına rağmen oyun yeniden başlamıyor
-// 0 a arenaya uyacak değer verince de olmuyor
-// resetBall kodumu normalde ballın durduğu değeri verdim orada bir sıkıntı yok
-// aldığım kurs web tasarımı odaklı şeyler yaptığı için oyun yapmakta zorlandım
-// kursta dom event konusuna çok az değiniyor bilgi konusunda orada eksiklerim olduğundan dolayı
-// çok fazla projeye baktım denedim sonunda fazla yardım aldım o yüzden.
 
 player1.style.top = window.innerHeight / 2.55 + "px";
 player2.style.top = window.innerHeight / 2.55 + "px";
@@ -121,3 +111,5 @@ function ballMovement() {
 }
 
 setInterval(ballMovement, gamespeed);
+ASDASD
+
